@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/style.css">
+  <title>Komang Chandra Winata</title>
+</head>
+<body class="text-gray-500">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-10 flex w-full items-center bg-gray-950 py-7">
+    <div class="container flex flex-row md:w-9/12 md:mx-auto">
+      <div class="uppercase text-lg px-4 md:basis-1/4">
+        <a href="#">
+          <span class="font-light text-blue-400 hover:text-blue-700">Ko</span><span class="font-extrabold text-white">Chan</span>
+        </a>
+      </div>
+      <div class="flex items-center px-4">
+        <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block md:hidden">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+        <nav class="hidden uppercase absolute right-4 top-full w-full max-w-[250px] rounded-lg py-5 shadow-lg ps-5 bg-gray-800">
+          <ul class="block">
+            <li class="group">
+              <a href="#services" class="hover:text-white flex">services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="hover:text-white flex">portfolio</a>
+            </li>
+            <li>
+              <a href="#experience" class="hover:text-white flex">experience</a>
+            </li>
+            <li>
+              <a href="#contact" class="hover:text-white flex">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="myNav" class="hidden lg:flex items-center justify-evenly basis-2/3 uppercase ms-auto md:block">
+        <a class="hover:text-white" href="#services"><span>services</span></a>
+        <a class="hover:text-white" href="#portfolio"><span>portfolios</span></a>
+        <a class="hover:text-white" href="#experience"><span>experiences</span></a>
+        <a class="hover:text-white" href="#contact"><span>contact</span></a>
+      </div> 
+    </div>
+
+
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="bg-gray-950">
+    <div class="container md:w-9/12 md:items-center md:mx-auto">
+      <div class="flex flex-wrap h-screen">
+        <div class="w-full self-center px-4  md:basis-1/2">
+          <div class="flex items-center mb-2">
+            <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+							<line x1="0" y1="10px" x2="10px" y2="10px"/>
+						</svg>
+            <h2 class="text-sm uppercase font-light tracking-lebar">Hi, i am</h2>
+          </div>
+          <h3 class="text-4xl font-extrabold text-white md:text-5xl">Komang <span class="text-blue-700">Chandra Winata</span></h3>
+          <p class="font-light mt-2">Backend Developer with Laravel. Proficient in PHP, HTML, Tailwind CSS, and Bootstrap. Experienced in UI/UX development.</p>
+          <div class="flex flex-row mt-5 space-x-3">
+            <a href="https://www.linkedin.com/in/komang-chandra-winata/" target="_blank"><img class="w-6 h-6" src="public/img/Linkedin.svg" alt="LinkkedId"></a>
+            <a href="https://github.com/komangchandra" target="_blank"><img class="w-6 h-6" src="public/img/Github.svg" alt="Github"></a>
+            <a href="https://www.instagram.com/komang_chandraa/" target="_blank"><img class="w-6 h-6" src="public/img/Instagram.svg" alt="Instagram"></a>
+          </div>
+        </div>
+        <div class="w-full self-center px4 md:basis-1/2">
+          <img class="ms-auto w-auto" src="public/img/profil.png" alt="My Profile">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="bg-slate-50 py-40">
+    <div class="container md:w-9/12 md:mx-auto">
+      <div class="flex flex-wrap">
+        <!-- Judul -->
+        <div class="w-full self-center px-4 mb-3">
+          <div class="flex items-center">
+            <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+              <line x1="0" y1="10px" x2="10px" y2="10px"/>
+            </svg>
+            <h2 class="uppercase tracking-lebar font-light text-xs">Services</h2>
+          </div>
+          <h3 class="text-2xl text-gray-800 md:text-3xl">Specialized in</h3>
+        </div>
+        <!-- Card -->
+        <div class="grid gap-10 px-4 md:grid-cols-3 md:px-0">
+          <div class="rounded-lg bg-white shadow-lg">
+            <div class="flex flex-col items-center p-10">
+              <div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+                <img class="w-full" src="public/img/Laravel.svg" alt="">
+              </div>
+              <h4 class="text-black mt-5">Laravel Framework</h4>
+              <p class="text-center font-light text-sm mt-2 text-gray">Create and manage your website with care, ensuring optimal performance and maintained traffic capacity.</p>
+            </div>
+          </div>
+
+          <div class="rounded-lg bg-white shadow-lg">
+            <div class="flex flex-col items-center p-10">
+              <div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+                <img class="w-full" src="public/img/Figma.svg" alt="">
+              </div>
+              <h4 class="text-black mt-5">UI/UX Design</h4>
+              <p class="text-center font-light text-sm mt-2 text-gray">Transform your digital product visions into reality, crafting seamless and captivating user experiences across any chosen platform.</p>
+            </div>
+          </div>
+
+          <div class="rounded-lg bg-white shadow-lg">
+            <div class="flex flex-col items-center p-10">
+              <div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+                <img class="w-full" src="public/img/Globe.svg" alt="">
+              </div>
+              <h4 class="text-black mt-5">Web Design</h4>
+              <p class="text-center font-lig text-sm mt-2 text-gray">Bring unparalleled visual appeal and functionality. Each design is crafted to embrace your brand.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="bg-gray-950 py-40">
+    <div class="container md:w-9/12 md:mx-auto">
+      <div class="flex flex-wrap">
+        <!-- Judul -->
+        <div class="w-full self-center px-4 mb-3">
+          <div class="flex items-center">
+            <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+              <line x1="0" y1="10px" x2="10px" y2="10px"/>
+            </svg>
+            <h2 class="uppercase tracking-lebar font-light text-xs">My Work</h2>
+          </div>
+          <h3 class="text-2xl text-white md:text-3xl">Featured Portfolios</h3>
+        </div>
+        <!-- Cards -->
+        <div class="grid gap-10 px-4 md:grid-cols-4">
+          <div class="rounded-lg shadow-lg overflow-hidden">
+            <img class="object-cover w-full opacity-50" src="public/img/Webgis.jpg" alt="Web GIS">
+            <div class="bg-white py-2 px-4">
+              <h4 class="text-sm font-medium text-gray-800">Web GIS</h4>
+              <h5 class="text-sm font-mono">Laravel</h5>
+            </div>
+          </div>
+
+          <div class=" rounded-lg shadow-lg overflow-hidden ">
+            <img class="object-cover w-full opacity-50" src="public/img/Webgis.jpg" alt="Webgis">
+            <div class="bg-white py-2 px-4">
+              <h4 class="text-sm font-medium text-gray-800">Dashboard</h4>
+              <h5 class="text-sm font-mono">Laravel - Bootstrap</h5>
+            </div>
+          </div>
+
+          <div class="rounded-lg shadow-lg overflow-hidden">
+            <img class="object-cover w-full opacity-50" src="public/img/Webblog.jpg" alt="Web Blog">
+            <div class="bg-white py-2 px-4">
+              <h4 class="text-sm font-medium text-gray-800">Web Blog Post</h4>
+              <h5 class="text-sm font-mono">Laravel</h5>
+            </div>
+          </div>
+
+          <div class="rounded-lg shadow-lg overflow-hidden">
+            <img class="object-cover w-full opacity-50" src="public/img/Profilcms.jpg" alt="CMS Wordpress">
+            <div class="bg-white py-2 px-4">
+              <h4 class="text-sm font-medium text-gray-800">Profile Company</h4>
+              <h5 class="text-sm font-mono">CMS Wordpress</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiences -->
+  <section id="experience" class="bg-gray-950 py-40">
+    <div class="container md:w-9/12 md:mx-auto md:items-center md:flex md:flex-wrap">
+      <div class="flex flex-wrap mb-5 md:basis-1/3">
+        <!-- Judul -->
+        <div class="w-full self-center px-4 mb-3">
+          <div class="flex items-center">
+            <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+              <line x1="0" y1="10px" x2="10px" y2="10px"/>
+            </svg>
+            <h2 class="uppercase tracking-lebar font-light text-xs">Career path</h2>
+          </div>
+          <h3 class="text-2xl text-white md:text-3xl">Experiences</h3>
+        </div>
+        <div class="flex flex-col gap-y-5 md:mt-10 pr-20 px-4">
+          <a 
+            id="uti" 
+            class="experience-link hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-lg" 
+            href=""
+            data-role="Information Systems Student" data-location="Kedaton • Bandar Lampung" data-date="2019 - 2023" data-details="Learn and Apply Web Design & Web Programming, Learn Mobile Programming, UI/UX Design, Enterprise Resource Planning using Odoo, etc..">Teknokrat University</a>
+          <a 
+            id="kmhdi" 
+            class="experience-link hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-lg" href=""
+            data-role="Head of Departement Data and Information KMHDI Bandar Lampung" data-location="Tanjung Seneng • Bandar Lampung" data-date="2019 - 2023" data-details="Chief Executive of MPAB 2020 Activities, Managing Social Media, Enterprise Resource Planning using Odoo, etc..">KMHDI</a>
+          <a 
+            id="uho"
+            class="experience-link hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-lg" href=""
+            data-role="Student Exchange - Kampus Merdeka" data-location="Kendari • Sulawesi Tenggara" data-date="September - Desember 2021" data-details="Modul Nusantara, Introduction to Culture, etc..">Halu Oleo University</a>
+          <a
+            id="gojek" 
+            class="experience-link hover:bg-blue-200 hover:text-blue-800 flex flex-row justify-between bg-white w-full p-4 rounded-lg" href=""
+            data-role="Internship as Costumer Engagement" data-location="Teluk Betung • Bandar Lampung" data-date="Juni - September 2022" data-details="Learning MTU, Design, Activation User, etc..">Gojek Lampung</a>
+        </div>
+      </div>
+
+      <div id="penjelasan" class="px-4 md:basis-2/3">
+        <h4 class="text-2xl font-bold text-gray-200">Information Systems Student</h4>
+        <h5 class="text-sm font-light">Kedaton • Bandar Lampung</h5>
+        <p class="mt-5 text-light text-gray-200">2019 - 2023</p>
+        <hr class="my-5">
+        <ul class="list-disc list-inside leading-10">
+          <li>Learn and Apply Web Design & Web Programming</li>
+          <li>Learn Mobile Programming</li>
+          <li>UI/UX Design</li>
+          <li>Enterprise Resource Planning using Odoo</li>
+          <li>etc..</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-white py-40">
+    <div class="container md:w-9/12 md:mx-auto md:items-center md:flex md:flex-wrap">
+      <div class="flex flex-wrap md:basis-1/2">
+        <!-- Judul -->
+        <div class="w-full self-center px-4 mb-3">
+          <div class="flex items-center">
+            <svg class="stroke-gray-400 stroke-2 h-5 w-5">
+              <line x1="0" y1="10px" x2="10px" y2="10px"/>
+            </svg>
+            <h2 class="uppercase tracking-lebar font-light text-xs">Inquiry</h2>
+          </div>
+          <h3 class="text-2xl text-gray-800 md:text-3xl">Contact Me</h3>
+        </div>
+        <form name="contact-form-profil" action="" class="max-w-md mt-10 px-4 w-full">
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700 font-semibold">Name</label>
+            <input id="name" name="name" type="text" class="bg-blue-100 rounded-md px-4 py-2 w-full focus:ring-blue-950" required>
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block tex-gray-700 font-semibold">Email</label>
+            <input id="email" name="email" type="text" class="bg-blue-100 rounded-md px-4 py-2 w-full focus:ring-blue-950" required>
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700 font-semibold">Message</label>
+            <textarea class="bg-blue-100 rounded-md px-4 py-2 w-full focus:ring-blue-950" name="message" id="message" cols="30" rows="4" required></textarea>
+          </div>
+          <div>
+            <button type="submit" class="hover:bg-blue-700 bg-blue-500 text-white font-semibold py-2 px-4 rounded-md w-full">Send Message</button>
+          </div>
+        </form>
+      </div>
+      <div class="px-4 md:basis-1/2">
+        <div class="flex flex-row gap-5 p-5">
+          <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+            <img class="w-full" src="public/img/pin.svg" alt="">
+          </div>
+          <div>
+            <h4 class="text-lg text-gray-800 font-medium">Address</h4>
+            <h5 class="font-light">Bandar Lampung City, Indonesia</h5>
+          </div>
+        </div>
+
+        <div class="flex flex-row gap-5 p-5">
+          <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+            <img class="w-full" src="public/img/mail.svg" alt="">
+          </div>
+          <div>
+            <h4 class="text-lg text-gray-800 font-medium">Mail</h4>
+            <h5 class="font-light">komangchandraaa1@gmail.com</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center pt-10 pb-10 -mt-20 text-xs">
+    <hr class="mb-10">
+    <p class="font-semibold text-gray-500">Made with ❤️ by <span class="text-blue-700">Komang Chandra Winata</span></p>
+    <p class="font-semibold text-gray-500">using <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS.</a></p>
+  </footer>
+
+  <script src="public/script.js"></script>
+  
+</body>
+</html>
